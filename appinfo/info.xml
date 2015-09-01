@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+    <id>ftpquota</id>
+    <name>FTP Quota</name>
+    <description>Updates user's .ftpquota file whenever needed</description>
+    <licence>AGPL</licence>
+    <author>Pellaeon Lin</author>
+    <version>0.0.1</version>
+    <namespace>FtpQuota</namespace>
+    <category>other</category>
+    <dependencies>
+        <owncloud min-version="8.1" />
+    </dependencies>
+</info>
