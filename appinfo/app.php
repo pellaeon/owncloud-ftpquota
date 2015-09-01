@@ -13,9 +13,10 @@ namespace OCA\FtpQuota\AppInfo;
 
 use OCP\AppFramework\App;
 
-$app = new App('ftpquota');
+$app = new Application();
 $container = $app->getContainer();
 
+/*
 $container->query('OCP\INavigationManager')->add(function () use ($container) {
 	$urlGenerator = $container->query('OCP\IURLGenerator');
 	$l10n = $container->query('OCP\IL10N');
@@ -39,3 +40,4 @@ $container->query('OCP\INavigationManager')->add(function () use ($container) {
 		'name' => $l10n->t('Ftp Quota'),
 	];
 });
+ */
