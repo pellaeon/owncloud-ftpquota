@@ -5,7 +5,7 @@
     <description>Updates user's .ftpquota file whenever needed</description>
     <licence>AGPL</licence>
     <author>Pellaeon Lin</author>
-    <version>0.0.1</version>
+    <version>0.1.0</version>
     <namespace>FtpQuota</namespace>
     <category>other</category>
     <dependencies>
